@@ -1,0 +1,292 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navbar
+{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.navbarcontainer
+{
+    width: 70%;
+    position: sticky;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.navbarcontainer ul
+{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.navbarcontainer ul li
+{
+    list-style: none;
+    padding-left: 20px;
+}
+.navbarcontainer ul li a
+{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.menu
+{
+    width: 100%;
+    display: flex;
+    background-color: whitesmoke;
+}
+.mencontaner
+{
+    display: flex;
+    position: sticky;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo
+{
+    width: 20%;
+}
+.logo img
+{
+    width: 100%;
+}
+.mencontaner .opts
+{
+    display: flex;
+}
+.mencontaner .opts ul
+{
+    display: flex;
+}
+.mencontaner .opts ul li
+{
+    list-style: none;
+    padding: 20px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.mencontaner .opts ul li a
+{
+    color: black;
+    text-decoration: none;
+}
+.mencontaner .opts ul li::after
+{
+    content: '';
+    display: block;
+    width: 0%;
+}
+.mencontaner .opts ul li:hover
+{
+    width: 100%;
+    border-bottom: 3px solid black;
+    width: 100%;
+}
+.search
+{
+    display: flex;
+    align-items: center;
+}
+.search input
+{
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+}
+.search input::placeholder
+{
+    padding-left: 15px;
+}
+.search i
+{
+    position: relative;
+    left: -87%;
+}
+.banner
+{
+    width: 100%;
+}
+.bannercontanier
+{
+    height: 350px;
+    width: 70%;
+    margin: auto;
+    background-color: blue;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.bannercontanier img
+{
+    width: 100%;
+}
+.hapscat h3
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 10px 0px 10px 0px;
+}
+.hapscat h3::before
+{
+    content: '';
+    display: block;
+    border-bottom: 2px solid black;
+    width: 30%;
+    position: relative;
+    top: 8px;
+    left: 15%;
+}
+.hapscat h3::after
+{
+    content: '';
+    display: block;
+    border-bottom: 2px solid black;
+    width: 30%;
+    position: relative;
+    top: -11px;
+    left: 55%;
+}
+.optsimages
+{
+    width: 100%;
+}
+.optimagescontanier
+{
+    height: 250px;
+    display: flex;
+    margin: 15px auto;
+    justify-content: space-between;
+    width: 70%;
+    border-radius: 20px;
+}
+.optimagescontanier .box1
+{
+    height: 250px;
+    width: 24%;
+    border-radius: 20px;
+}
+.optimagescontanier .box1 img
+{
+    height: 250px;
+    width: 100%;
+    border-radius: 20px;
+}
+.videoopt
+{
+    width: 100%;
+}
+.videooptcontanier
+{
+    height: 350px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.videooptcontanier .video1
+{
+    height: 350px;
+    width: 24%;
+    border-radius: 20px;
+}
+.videooptcontanier .video1 video
+{
+    height: 350px;
+    width: 100%;
+    border-radius: 20px;
+}
+.videooptcontanier .video1 img
+{
+    height: 350px;
+    width: 100%;
+    border-radius: 20px;
+}
+.view
+{
+    text-align: center;
+}
+.view button
+{
+    margin: 20px auto;
+    border-radius: 50px;
+    padding: 5px 20px;
+    border: 1px solid black;
+    outline: none;
+    background-color: white;
+}
+.futter
+{
+    display: flex;
+    border-top: 1px solid black;
+    background-color: #F9FAFB;
+}
+.futtercontanier
+{
+    display: flex;
+    width: 70%;
+    margin: 50px auto;
+    justify-content: space-between;
+}
+h2
+{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.account ul li
+{
+    margin-top: 8px;
+    list-style: none;
+}
+.account ul li a
+{
+    color: rgb(47, 47, 47);
+    text-decoration: none;
+}
+.contact ul li
+{
+    margin-top: 8px;
+    list-style: none;
+}
+.contact ul li a
+{
+    color: rgb(47, 47, 47);
+    text-decoration: none;
+}
+.about ul li
+{
+    margin-top: 8px;
+    list-style: none;
+}
+.about ul li a
+{
+    color: rgb(47, 47, 47);
+    text-decoration: none;
+}
+.legal ul li
+{
+    margin-top: 8px;
+    list-style: none;
+}
+.legal ul li a
+{
+    color: rgb(47, 47, 47);
+    text-decoration: none;
+}
