@@ -1,0 +1,861 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navbar
+{
+    width: 100%;
+    display: flex;
+}
+.navbarcontainer
+{
+    width: 75%;
+    height: 71px;
+    margin: auto;
+    display: flex;
+    line-height: 71px;
+}
+.navbarcontainer ul
+{
+    display: flex;
+}
+.navbarcontainer ul li
+{
+    list-style: none;
+    margin-left: 20px;
+}
+.navbarcontainer ul li a 
+{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo
+{
+    margin-right: 10px;
+    margin-top: 5px;
+    height: 22px;
+    width: 150px;
+}
+.logo img
+{
+    width: 100%;
+}
+.banner
+{
+    width: 100%;
+}
+.banner img
+{
+    height: 850px;
+    width: 100%;
+}
+.bannercontainer
+{
+    width: 97%;
+    height: 850px;
+    margin: auto;
+    position: absolute;
+    top: 71px;
+    left: 24px;
+}
+.bannercontainer img
+{
+    width: 100%;
+}
+.banner-2
+{
+    width: 100%;
+    padding-bottom: 50px;
+}
+.banner-2container
+{
+    height: 560px;
+    width: 100%;
+    padding-bottom: 50px;
+}
+.banner-2container img
+{
+    height: 500px;
+    width: 100%;
+}
+.banner-2 h1
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+    margin: 20px 0px;
+}
+.banneropts
+{
+    width: 18%;
+    margin: auto;
+    padding-bottom: 15px;
+}
+.banner-2container .banneropts ul
+{
+    display: flex;
+}
+.banner-2container .banneropts ul li
+{
+    list-style: none;
+    margin-right: 20px;
+    width: 100%;
+}
+.banner-2container .banneropts ul li a 
+{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.banneropts li::after
+{
+    content: '';
+    display: flex;
+    border: 2px solid blue;
+    width: 0%;
+}
+.banneropts li:hover
+{
+    width: 100%;
+}
+.buttons
+{
+    width: 100%;
+    background-color: #F6F3F2;
+    padding: 50px 0px;
+}
+.buttonscontanier
+{
+    height: 60px;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 50px 0px;
+}
+.buttonscontanier ul
+{
+    display: flex;
+    justify-content: space-between;
+}
+.buttonscontanier ul li
+{
+    list-style: none;
+    width: 24%;
+}
+.buttonscontanier ul li a 
+{
+    text-decoration: none;
+}
+.buttonscontanier ul li a button
+{
+    color: white;
+    background-color: #767676;
+    height: 50px;
+    width: 100%;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+.bluebackground
+{
+    width: 100%;
+    padding-top: 50px;
+    background-color: #002C5F;
+}
+.bluebackgroundcontainer
+{
+    height: 104px;
+    width: 75%;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+.bluebackgroundcontainer span
+{
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bluebackgroundcontainer h1
+{
+    margin-top: 5px;
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.optsimages
+{
+    width: 100%;
+}
+.optsimagescontainer
+{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.optsimagescontainer .optimages1
+{
+    width: 32%;
+}
+.optsimagescontainer .optimages1 a
+{
+    text-decoration: none;
+}
+.optsimagescontainer .optimages2 a
+{
+    text-decoration: none;
+}
+.optsimagescontainer .optimages3 a
+{
+    text-decoration: none;
+}
+.optsimagescontainer .optimages1 img
+{
+    width: 100%;
+    height: 400px;
+}
+.optsimagescontainer .optimages1 span
+{
+    color: darkblue;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.optsimagescontainer .optimages1 h3
+{
+    color: black;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.optsimagescontainer .optimages2
+{
+    width: 32%;
+}
+.optsimagescontainer .optimages2 img
+{
+    width: 100%;
+    height: 400px;
+}
+.optsimagescontainer .optimages2 span
+{
+    color: darkblue;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.optsimagescontainer .optimages2 h3
+{
+    color: black;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.optsimagescontainer .optimages3
+{
+    width: 32%;
+}
+.optsimagescontainer .optimages3 img
+{
+    width: 100%;
+    height: 400px;
+}
+.optsimagescontainer .optimages3 span
+{
+    color: darkblue;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.optsimagescontainer .optimages3 h3
+{
+    color: black;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.testdrive
+{
+    width: 100%;
+}
+.testdrivecontanier
+{
+    height: 540px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.testdrivecontanier img
+{
+    height: 540px;
+    width: 100%;
+}
+.testdrivecontanier .dots
+{
+    width: 10%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+}
+.testdrivecontanier .dots .d1
+{
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    background-color: blue;
+    margin-right: 5px;
+}
+.testdrivecontanier .dots .d2
+{
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    border: 0.5px solid darkblue;
+    margin-right: 5px;
+}
+.testdrivecontanier .dots .d3
+{
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    border: 0.5px solid darkblue;
+    margin-right: 5px;
+}
+.testdrivecontanier .dots .d4
+{
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    border: 0.5px solid darkblue;
+    margin-right: 5px;
+}
+.testdrivecontanier a
+{
+    text-decoration: none;
+}
+.testdrivecontanier button
+{
+    border: none;
+    margin-left: 38.3%;
+    margin-top: 100px;
+    height: 50px;
+    width: 270px;
+    background-color: #002C5F;
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bluebackground-2
+{
+    margin-top: 240px;
+    width: 100%;
+    height: 186px;
+    padding-top: 50px;
+    background-color: #002C5F;
+    margin-bottom: 50px;
+}
+.bluebackgroundcontainer-2
+{
+    height: 136px;
+    width: 75%;
+    margin: auto;
+}
+.bluebackgroundcontainer-2 span
+{
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bluebackgroundcontainer-2 h1
+{
+    margin-top: 5px;
+    color: white;
+    font-size: 44px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.opts
+{
+    width: 100%;
+}
+.optscontainer
+{
+    width: 75%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.optscontainer ul
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;   
+}
+.optscontainer ul li 
+{
+    list-style: none;
+    height: 380px;
+    width: 32%;
+}
+.optscontainer ul li a
+{
+    text-decoration: none;
+}
+.o1
+{
+    height: 380px;
+    width: 100%;
+}
+.o1 img
+{
+    width: 100%;
+    height: 380px;
+}
+.o2
+{
+    height: 380px;
+    width: 100%;
+}
+.o2 img
+{
+    width: 100%;
+    height: 380px;
+}
+.o3
+{
+    height: 380px;
+    width: 100%;
+}
+.o3 img
+{
+    width: 100%;
+    height: 380px;
+}
+.o4
+{
+    height: 380px;
+    width: 100%;
+}
+.o4 img
+{
+    width: 100%;
+    height: 380px;
+}
+.o5
+{
+    height: 380px;
+    width: 100%;
+}
+.o5 img
+{
+    width: 100%;
+    height: 380px;
+}
+.o6
+{
+    height: 380px;
+    width: 100%;
+}
+.o6 img
+{
+    width: 100%;
+    height: 380px;
+}
+.newspage
+{
+    width: 100%;
+    background-color: #F1F1F1;
+}
+.newspagecontainer
+{
+    height: 706px;
+    width: 95%;
+    margin: auto;
+}
+.newspagecontainer .box1
+{
+    height: 442px;
+    width: 100%;
+    background-color: white;
+}
+.newspagecontainer h1
+{
+    padding-top: 100px;
+    padding-bottom: 80px;
+    font-size: 44px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.newspagecontainer .box1 .box a
+{
+    text-decoration: none;
+}
+.newspagecontainer .box1 .box
+{
+    height: 206px;
+    padding-top: 80px;
+}
+.newspagecontainer .box1 .box span
+{
+    width: 100%;
+    color: #767676;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+.newspagecontainer .box1 .box h2
+{
+    padding-top: 16px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+.newspagecontainer .box1 .box button
+{
+    color: white;
+    margin-top: 34px;
+    height: 49px;
+    width: 169px;
+    padding: 0px 15px;
+    background-color: #002C5F;
+    text-align: center;
+    outline: none;
+    border: none;
+}
+.newspagecontainer .dots
+{
+    width: 10%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+    top: 40%;
+    left: 22px;
+}
+.newspagecontainer .dots .d1
+{
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    background-color: blue;
+    margin-right: 10px;
+}
+.newspagecontainer .dots .d2
+{
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    border: 0.5px solid darkblue;
+    margin-right: 10px;
+}
+.newspagecontainer .dots .d3
+{
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    border: 0.5px solid darkblue;
+    margin-right: 10px;
+}
+.newspagecontainer .dots .d4
+{
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    border: 0.5px solid darkblue;
+    margin-right: 10px;
+}
+.newspagecontainer .dots .d5
+{
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    border: 0.5px solid darkblue;
+    margin-right: 10px;
+}
+.location
+{
+    width: 100%;
+}
+.lacationcontanier
+{
+    width: 75%;
+    margin: auto;
+}
+.lacationcontanier h1
+{
+    margin-top: 100px;
+    font-size: 44px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.lacationcontanier p
+{
+    margin-bottom: 50px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.lacationcontanier span
+{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.lacationcontanier .inp
+{
+    width: 100%;
+    display: flex;
+}
+.lacationcontanier .input2 .inp1
+{
+    height: 39px;
+    width: 255px;
+    padding: 6px 12px;
+    border: .8px solid rgb(185, 185, 185);
+    margin-right: 30px;
+}
+.lacationcontanier .input2 .inp2
+{
+    height: 44px;
+    width: 354px;
+    padding: 0px 15px;
+    border: .8px solid rgb(185, 185, 185);
+    margin-right: 30px;
+}
+.lacationcontanier .input2 .inp3
+{
+    height: 39px;
+    width: 136px;
+    padding: 6px 12px;
+    border: .8px solid rgb(185, 185, 185);
+    margin-right: 30px;
+}
+.lacationcontanier .input1
+{
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.lacationcontanier .input1 label
+{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-weight: bold;
+    width: 14px;
+}
+.lacationcontanier button
+{   
+    margin-left: 44%;
+    border: none;
+    margin-top: 30px;
+    height: 40px;
+    width: 140px;
+    background-color: #002C5F;
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+.googlemap
+{
+    width: 100%;
+    margin-top: 20px;
+}
+.googlemapcontiner
+{
+    width: 100%;
+    display: flex;
+}
+.googlemap span
+{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    position: relative;
+    left: 50px;
+}
+.googlemapcontiner .showroom 
+{
+    width: 30%;
+}
+.googlemapcontiner .showroom img
+{
+    height: 600px;
+    width: 100%;
+}
+.googlemapcontiner .map 
+{
+    height: 500px;
+    width: 70%;
+}
+.googlemapcontiner .map iframe
+{
+    width: 100%;
+    height: 500px;
+}
+.flutter
+{
+    margin-top: 100px;
+    width: 100%;
+    background-color: #1C1B1B;
+}
+.flutter .copyright span
+{
+    color: rgb(203, 203, 203);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    position: relative;
+    bottom: 40px;
+    left: 260px;
+}
+.fluttercontainer 
+{
+    width: 75%;
+    height: 430px;
+    margin: auto;
+    display: flex;
+}
+.fluttercontainer .logo
+{
+    width: 60px;
+    height: 32px;
+    margin-top: 23px;
+    margin-right: 40px;
+}
+.fluttercontainer .logo img
+{
+    width: 100%;
+    height: 32px;
+}
+.content
+{
+    display: flex;
+    margin-right: 100px;
+    width: 95%;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+.fluttercontainer .content li
+{
+    list-style: none;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    height: 24px;
+}
+.fluttercontainer .content li a
+{
+    color: rgb(203, 203, 203);
+    text-decoration: none;
+}
+.fluttercontainer .content .c1 ul span
+{
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-weight: bold;
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+}
+.fluttercontainer .content .c2 ul span
+{
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.fluttercontainer .content .c3 ul span
+{
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.fluttercontainer .content .c4 a
+{
+    text-decoration: none;
+}
+.fluttercontainer .content .c4 ul span
+{
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.fluttercontainer .content .c5 ul span
+{
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.fluttercontainer .content .c6 ul
+{
+    display: flex;
+}
+.fluttercontainer .content .c6 ul li 
+{
+    margin-right: 10px;
+    height: 24px;
+    width: 24px;
+}
+.fluttercontainer .content .c6 ul li i
+{
+    height: 24px;
+    width: 100%;
+    line-height: 24px;
+}
+.blueflutter
+{
+    width: 100%;
+    background-color: #002C5F;
+}
+.bluefluttercontainer 
+{
+    width: 75%;
+    margin: auto;
+    height: 72px;
+}
+.bluefluttercontainer ul
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bluefluttercontainer ul li
+{
+    list-style: none;
+}
+.bluefluttercontainer ul li a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-weight: bold;
+}
+.bluefluttercontainer ul li a img
+{
+    margin-top: 10px;
+    margin-right: 20px;
+    height: 32px;
+    width: 32px;
+    position: relative;
+    top: 10px;
+}
